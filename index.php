@@ -33,6 +33,8 @@ if ($bmi < 18.5){
     echo "<br>Bạn béo phì cấp độ 2";
 }elseif ($bmi > 40.0){
     echo "<br>Bạn béo phì cấp độ 3";
+}else{
+    echo "<br> Không phân loại";
 }
 ?>
 
